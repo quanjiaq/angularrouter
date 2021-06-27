@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent, NewsComponent, ProductsComponent } from './componemts';
+import { HomeComponent, NewsComponent, ProductsComponent,ProductsContentComponent } from './componemts';
 
 
 @NgModule({
@@ -11,7 +11,8 @@ import { HomeComponent, NewsComponent, ProductsComponent } from './componemts';
     AppComponent,
     ProductsComponent,
     NewsComponent,
-    HomeComponent
+    HomeComponent,
+    ProductsContentComponent
   ],
   imports: [
     BrowserModule,
